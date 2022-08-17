@@ -1,0 +1,91 @@
+*{
+	margin:0;
+	padding:0;
+}
+.structure {
+  background: rgba(0, 0, 0, 0) url("background.jpg") repeat scroll 0 0;
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 1045px;
+}
+.header{
+	background-image:url();
+}
+img {
+  width: 100%;
+}
+.text > h1 {
+  border: 2px solid green;
+  left: 10%;
+  padding: 5px 15px;
+  position: absolute;
+  top: 40%;
+}
+.menu {
+  background: gray none repeat scroll 0 0;
+  margin-top: -5px;
+}
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline-block;
+}
+a {
+  font-weight: bold;
+  padding: 5px 45px;
+  text-decoration: none;
+  display: inline-block;
+}
+.IDB.BHABAN {
+  
+  margin-left: 60px;
+  margin-right: 80px;
+  margin-top: 50px;
+}
+.Nested.Private.Limited {
+  border: 2px solid green;
+  background: lightblue;
+}
+.Nested.Private.Limited > h1 {
+  background: #002846 none repeat scroll 0 0;
+  color: gray;
+  text-align: center;
+}
+.Products > h1 {
+  background: #eedeeb none repeat scroll 0 0;
+}
+.Products > p {
+  background: white;
+  padding: 10px;
+}
+.services > h1 {
+  background: #EEDEEB;
+}
+.services > p {
+  background: white none repeat scroll 0 0;
+  padding: 12px;
+}
+.Delarship > h1 {
+  background: #EEDEEB;
+}
+.Delarship > p {
+  background: white;
+  padding: 10px;
+}
+.Contuct.us > h1 {
+  background: #eedeeb none repeat scroll 0 0;
+  border: 2px solid #329a9e;
+  text-align: center;
+}
+.text {
+  background: white none repeat scroll 0 0;
+  padding-left: 140px;
+}
+.footer {
+  border-top: 15px solid gold;
+  margin-top: 10px;
+  text-align: center;
+}
