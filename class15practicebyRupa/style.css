@@ -1,0 +1,419 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: phototime
+	Template URI: http://www.softtech-it.com
+	Description: photo related template
+	Author: Mtm Sujan
+	Author URI: http://www.mtmsujan.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+		2.1 Menu Area
+		2.2 Welcome Area 
+		2.3 Social contact
+	3. Started Area
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+
+/************** 1. Typography ************************/
+
+@font-face {
+	font-family:GothamRoundedBold;
+	src:url('fonts/something.woff') format('woff');
+}
+@font-face {
+	font-family:Gotham Rounded Book;
+	src:url('fonts/Gotham Rounded Book .woff') format('woff');
+}
+body, p {
+	font-family:Gotham Rounded Book;
+	font-size:12px;
+	line-height:1.3em;
+}
+
+
+ h2 {
+	text-transform:uppercase;
+	letter-spacing:5px;
+	font-size:25px;
+	color:#ffffff;
+}
+ h5 {
+	font-size:12px;
+	letter-spacing:3px;
+	margin-bottom:20px;
+	font-weight:normal;
+}
+h3 {
+	font-size:14px;
+	color:#16A085;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	line-height:1.3em;
+	font-family: GothamRoundedBold;
+	font-weight:bold;
+}
+p {
+	
+	color:#6A6A6B;
+	letter-spacing:1px;
+	line-height:1.8em;
+	font-size:11px;
+	margin:30px 0;
+}
+b {
+	color:#454545;
+	font-weight:bold;
+}
+/***2.Header Area***/
+.container {
+	width:80%;
+	margin: 0 auto;
+	max-width:960px;
+}
+.header-area {
+	background:url("images/background.jpg") no-repeat 0 0 / 100% 100%;
+	color:#ffffff;
+	text-align:center;
+	overflow:hidden;
+	padding:30px 0;
+	
+}
+
+
+/***2.1 Menu Area Start****/
+
+.menu ul {
+	list-style:none;
+	text-align:center;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	
+}
+.menu ul li {
+	display:inline;
+	 margin: 0 25px;
+}
+.menu ul li a {
+	text-decoration:none;
+	color:#ffffff;
+	text-transform:uppercase;
+	font-weight:bold;
+	
+	font-size:12px;
+	display:inline-block;
+	border-bottom:1px solid transparent;
+	padding-bottom:10px;
+}
+.menu .logo a {
+	border:none;
+}
+.menu .logo a:hover {
+	border:none;
+}
+.menu ul li a:hover {
+	border-bottom:1px solid #ffffff;
+	transition:.2s;
+}
+.menu ul li a img {
+	margin: 0 20px;
+	width:40px;
+	height:auto;
+}
+/***2.2 Welcome Area Start***/
+.welcome-area {
+	margin-top:180px;
+	overflow:hidden;
+	padding:10px;
+}
+
+
+.button  {
+	text-align:center;
+	border:1px solid transparent;
+	background:#16A086;
+	color:#ffffff;
+	font-size:11px;
+	border-radius:3px;
+	text-transform:uppercase;
+	text-decoration:none;
+	padding:15px 30px;
+	display:inline-block;
+	transition:.4s;
+	letter-spacing:1px;
+}
+.button:hover {
+	border:1px solid #16A086;
+	background:#ffffff;
+	color:#16A086;
+}
+/***2.3 Social-contact Area Start****/
+.social-contact {
+	margin-top:130px;
+	overflow:hidden;
+}
+.social-contact ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	overflow:hidden;
+	
+}
+.social-contact ul li {
+	display:inline;
+	margin:0 10px;
+}
+.social-contact ul li a  {
+	color:#ffffff;
+	font-size:22px;
+	text-decoration:none;
+}
+.social-contact ul li a:hover {
+	color:#16A086;
+}
+
+/***Header Area End***/
+/****GET STARTED AREA Start***/
+
+.started-area {
+	background:#F5F6F8;
+	overflow:hidden;
+	max-height:370px;
+	
+	
+}
+.started-area .text-area {
+	padding:50px 0;
+	
+}
+.col-1-2 {
+	width:50%;
+	float:left;
+	overflow:hidden;
+}
+.text-area p {
+	margin:30px 0;
+}
+
+.started-area .image-area img {
+	width:100%;
+	overflow:hidden;
+	margin-top: 60px;
+	
+}
+/***Design Area Start***/
+.design-area {
+	padding:50px 0;
+	overflow:hidden;
+}
+.design {
+	background-image:url("images/phone.png");
+	background-repeat:no-repeat;
+	background-position:left top;
+	background-size:30%;
+	overflow:hidden;
+	
+}
+.design-text {
+	width:40%;
+	float:right;
+	overflow:hidden;
+}
+.slide {
+	margin:50px 0;
+}
+.arrow {
+	font-size:20px;
+	font-weight:bold;
+}
+
+
+/***Design Area Enad***/
+
+/***Community Area Start***/
+.community-area {
+	background:#F5F6F8;
+	overflow:hidden;
+	padding:80px 0;
+}
+.community {
+	width:100%;
+	overflow:hidden;
+}
+.angle {
+	float:right;
+	overflow:hidden;
+	font-size:20px;
+
+}
+ .community-text {
+	width:20%;
+	float:left;
+	overflow:hidden;
+	text-align:center;
+	
+	
+}
+.text {
+	width:100%;
+	margin:90px 0 0 -18px;
+}
+.text h3 {
+	color:#454545;
+	font-family:GothamRoundedBold;
+}
+.text p {
+	margin:20px 0;
+	font-family:GothamRoundedBold;
+	color:#909090;
+	line-height:1em;
+}
+.photo {
+	width:80%;
+	overflow:hidden;
+	
+}
+.photo .part1 {
+	width:50%;
+	float:left;
+	overflow:hidden;
+}
+.photo .part2 {
+	width:50%;
+	overflow:hidden;
+	
+}
+.photo .part2 img {
+	margin-left:20px;
+}
+.photo img {
+	width:100%;
+	height:auto;
+}
+/***Community Area End***/
+.subscribe-area {
+	background-image:url("images/background2.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:850px;
+	width:100%;
+	text-align:center;
+	padding:20px;
+	
+}
+.subscribe {
+	margin:320px 0;
+}
+input[type="email"] {
+	border:1px solid transparent;
+	border-radius:3px 0 0 3px;
+	padding:10px 20px;
+	margin: 20px 0;
+	text-transform:uppercase;
+	font-family:GothamRoundedBold;
+}
+button[type="submit"] {
+	padding:10px 20px;
+	margin-left:-4px;
+	border-radius: 0 3px  3px 0 ;
+	background:#16A085;
+	border:1px solid transparent;
+	color:#ffffff;
+}
+
+/***Subscribe Area End***/
+/***Download Area Start****/
+.download-area {
+	text-align:center;
+	background:#F5F6F7;
+	padding:60px 0;
+	
+}
+.download-area h3 {
+	color:#373737;
+	font-size:18px;
+	font-family:GothamRoundedBold;
+}
+.download-area p {
+	color:#373737;
+	font-size:14px;
+	font-family:GothamRoundedBold;
+}
+.download-area  i {
+	font-size:18px;
+}
+.download-area input  {
+	border:1px solid transparent;
+	border-radius:3px 0 0 3px;
+	background:#1BBC9B;
+	padding:10px 20px;
+	color:#ffffff;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	margin-left:20px;
+	
+}
+
+.download-area button {
+	border:1px solid transparent;
+	border-radius: 0 3px 3px 0;
+	color:#ffffff;
+	margin-left:-4px;
+	padding: 7px 14px 10px
+}
+/***footer Area Start**/
+.footer-area {
+	padding:40px 0;
+	font-family:GothamRoundedBold;
+	
+}
+.last p {
+	font-size:14px;
+	font-family:GothamRoundedBold;
+}
+.last ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.last ul li {
+	display:inline;
+	
+}
+.last ul li a {
+	text-decoration:none;
+	color:#3E3E3E;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	font-size:12px;
+	
+}
+.last {
+	width:90%;
+	float:left;
+	overflow:hidden;
+}
+.logo {
+	width:10%;
+	overflow:hidden;
+}
+
+
+
+
+
+
+

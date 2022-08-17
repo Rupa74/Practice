@@ -1,0 +1,9 @@
+@media and all (max-width: 700px) {
+	.menu ul li {
+		width:100%;
+	}
+	.download-area input,{
+	
+		width:100%;
+	}
+}
